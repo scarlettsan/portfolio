@@ -1,0 +1,65 @@
+/* 20150222 Wangshu Sun */
+
+/***** about *****/
+#about {
+	padding-bottom: 5em;
+}
+.portrait {
+	width: 150px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.portrait img{
+	border-radius: 0 0 50% 50%; 
+}
+#about p {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 14px;
+	padding-bottom: 1em;	
+}
+.about-large {
+	font-family: 'Shift', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/***** portfolio *****/
+#portfolio {
+/*	padding-bottom: 3em;*/
+}
+.left-3 { margin-left: 3em; color: #aaa;} .right-3 {margin-right:3em; color: #aaa;}
+
+#portfolio h4 {
+	margin: 0.5em auto 2em auto;
+	padding: 0.5em 0;
+	text-align: center;
+	width: 85%;
+	max-width: 240px;
+	font-size: 16px;
+}
+
+.project {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 200px;
+}
+.project p {
+	margin: 1.5em 0;
+	height: 5em;
+	text-align: center;
+	font-size: 12px;
+}
+.project img {
+	padding: 6px;
+	border: 1px solid #ddd;
+	transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-webkit-transition: 0.3s linear;
+}
+.project img:hover {
+	-webkit-box-shadow: #aaa 0px 0px 10px;
+	-moz-box-shadow: #aaa 0px 0px 10px;
+	box-shadow: #aaa 0px 0px 10px;
+}
+

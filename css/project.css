@@ -1,0 +1,64 @@
+/* 20150222 Wangshu Sun */
+/***** content *****/
+#content {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/***** foot *****/
+#foot {
+	padding-top: 5em;
+	padding-bottom: 2em;
+	clear: both;
+}
+#content-left #foot p {
+	margin: 0;
+}
+
+hr { border-top: 1px solid #eee; border-bottom: none;}
+
+#content-left h3, #content-left h4, #content-left h5, #content-left h6 {
+	margin: 1em 0 1.2em 0;
+}
+#content-left p {
+	margin: 1em 0;
+}
+.project {
+	margin: 0 auto;
+	width: 85%;
+	max-width: 240px;
+}
+.project p {
+	margin: 1.5em 0;
+	height: 5em;
+	text-align: center;
+	font-size: 12px;
+}
+.project img {
+	padding: 6px;
+	border: 1px solid #ddd;
+	transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-webkit-transition: 0.3s linear;
+}
+.project img:hover {
+	-webkit-box-shadow: #aaa 0px 0px 10px;
+	-moz-box-shadow: #aaa 0px 0px 10px;
+	box-shadow: #aaa 0px 0px 10px;
+}
+
+
+#content-right h4 {
+	/*padding: 10px 15px;*/
+}
+#content-right .nav > li > a {
+	color: #333333;
+	font-size: 13px;
+}
+.project-right {
+	padding: 0;
+}
+.project-right img{
+	width: 50px;
+	margin-right: 10px; /* 12px */
+}
