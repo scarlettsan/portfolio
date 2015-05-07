@@ -5,7 +5,7 @@ body {background: url(../images/branch14.jpg) repeat;}/*#eee; }*/
 .jumbotron .container {background: none;}
 /***** global *****/
 body nav, body h1, body h2, body h3, body h4, body h5, body h6, body p, body a {
-	font-family: 'Shift', sans-serif;
+	font-family: "Shift", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 img {
 	max-width: 100%;
@@ -70,7 +70,6 @@ body .navbar {
 .jumbotron #title {
 	color: #fff;
 	font-size: 45px;  
-	font-family: 'Shift', sans-serif;
 	font-weight: bold;
 	text-shadow: 2px 2px 2px rgba(170,170,170,0.5);
 }
