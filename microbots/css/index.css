@@ -1,0 +1,42 @@
+body {
+	font-family: "Microsoft YaHei", sans-serif !important;
+}
+/* "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;	*/
+img {
+	max-width: 100%;
+}
+
+.portrait-80 {
+	width: 100px;
+	margin: 20px auto;
+}
+
+.container {
+	width: 80%;
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0px;
+	height: 50px;
+	box-shadow: none;
+	font-size: 16px
+}
+
+.form-control:focus {
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.btn {
+	height: 50px;
+	border:none;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-radius: 0px;
+	font-size: 16px
+}
