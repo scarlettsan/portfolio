@@ -1,0 +1,127 @@
+/* Written by Sun Wangshu */
+/* 2015.06.10 */
+/*-------- custom settings --------*/
+body {
+	font-family: "MicrosoftYaHeiLight*", "Microsoft YaHei", sans-serif !important;
+	font-size: 14px;
+}
+/* "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;	*/
+img {
+	max-width: 100%;
+}
+
+.width-10 {
+	width: 10%;
+}
+.width-30 {
+	width: 30%;
+}
+.width-70 {
+	width: 70%;
+}
+.width-90 {
+	width: 90%;
+}
+.width-100 {
+	width: 100%;
+}
+
+/*-------- overwrite bootstrap -------*/
+.container {
+	width: 100%;
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #e6e7e8;
+	border-radius: 0px;
+	height: 44px;
+	box-shadow: none;
+	font-size: 16px
+}
+
+.form-control:focus {
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #e6e7e8;
+}
+
+.form-group-collapse {
+	margin-bottom: 0;
+}
+.form-border-top {
+	border-top: 1px solid #e6e7e8;
+}
+
+.btn {
+	height: 44px;
+	border:none;
+	border-radius: 0px;
+	font-size: 14px
+}
+.btn-default:active, .btn-default:focus, .btn-default:hover {
+	border-color: #e6e7e8 !important;
+	background-color: transparent !important;
+}
+
+/*-------- electronic_edit.html --------*/
+.form-end-1 {
+	margin-bottom: 27px;
+}
+
+.div-portrait {
+	height: 132px;
+}
+.portrait-positioner {
+	position: relative;
+	width: 70%;
+	max-width: 90px;
+	margin: auto;
+	top: 30px;
+}
+
+.input-group-btn.width-30 {
+	border-right: 1px solid #e6e7e8;
+}
+.input-group-btn .btn {
+	border-bottom: 1px solid #e6e7e8;
+}
+
+.btn .icon-add_1 {
+	font-size: 18px;
+	color: #00adee;
+}
+
+.btn-icon {
+	padding: 6px 3px 0px 16px;
+	margin: 0px !important;
+}
+
+.btn-right {
+	margin: 0px !important;
+	padding: 0px 7px;
+}
+.btn .icon-to_right {
+	font-size: 12px;
+	color: #B0B0B0;
+	margin-left: 5px;
+}
+
+.form-end-2 {
+	margin-bottom: 32px;
+}
+.form-end-3 {
+	margin-bottom: 49px;
+}
+.btn-submit {
+	background-color: #107AFD;
+	color: #FFF;
+}
+.btn-submit:active, .btn-submit:focus, .btn-submit:hover {
+	color: #FFF;
+}
+.form-end-4 {
+	margin-bottom: 12px;
+}
