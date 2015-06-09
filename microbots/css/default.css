@@ -50,7 +50,13 @@ img {
 
 .form-group-collapse {
 	margin-bottom: 0;
+	border-bottom: 1px solid #e6e7e8;
+	border-collapse: collapse;
 }
+.form-group-collapse .form-control {
+	border: none;
+}
+
 .form-border-top {
 	border-top: 1px solid #e6e7e8;
 }
@@ -85,10 +91,10 @@ img {
 .input-group-btn.width-30 {
 	border-right: 1px solid #e6e7e8;
 }
-.input-group-btn .btn {
+/*.input-group-btn .btn {
 	border-bottom: 1px solid #e6e7e8;
 }
-
+*/
 .btn .icon-add_1 {
 	font-size: 18px;
 	color: #00adee;
