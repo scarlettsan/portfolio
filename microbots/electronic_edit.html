@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>电子名片制作</title>
+  <title>电子名片-编辑内容</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/default.css">
+  <link rel="stylesheet" type="text/css" href="css/electronic_edit.css">
   <link rel="stylesheet" type="text/css" href="css/icomoon.css">
 </head>
 
@@ -29,21 +30,12 @@
       <div class="form-group form-group-collapse form-border-top">
         <div class="input-group width-100">
           <div class="input-group-btn width-30">
-            <button type="button" class="btn btn-default btn-icon col-xs-4"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default dropdown-toggle btn-right col-xs-8" data-toggle="dropdown" aria-expanded="false">
-              <div class="pull-left"><span>住宅</span></div>
+            <button type="button" class="btn btn-none btn-icon col-xs-4"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none dropdown-toggle btn-right col-xs-8" data-toggle="modal" data-target="#myModal-1">
+              <!-- 模态框内容在文件底部 -->
+              <div class="pull-left"><span>电话</span></div>
               <div class="pull-right"><span class="icon-to_right"></span></div>
             </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">住宅</a></li>
-              <li><a href="#">手机</a></li>
-              <li><a href="#">公司</a></li>
-              <li><a href="#">个人</a></li>
-              <li><a href="#">工作</a></li>
-              <li><a href="#">主要</a></li>
-              <li><a href="#">传真</a></li>
-              <li><a href="#">传呼</a></li>
-            </ul>
           </div>
           <input type="text" class="form-control" placeholder="电话">
         </div>
@@ -51,15 +43,11 @@
       <div class="form-group form-group-collapse">
         <div class="input-group width-100">
           <div class="input-group-btn width-30">
-            <button type="button" class="btn btn-default btn-icon col-xs-4"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default dropdown-toggle btn-right col-xs-8" data-toggle="dropdown" aria-expanded="false">
-              <div class="pull-left"><span>个人</span></div>
+            <button type="button" class="btn btn-none btn-icon col-xs-4"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none dropdown-toggle btn-right col-xs-8" data-toggle="modal" data-target="#myModal-2">
+              <div class="pull-left"><span>邮箱</span></div>
               <div class="pull-right"><span class="icon-to_right"></span></div>
             </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">个人</a></li>
-              <li><a href="#">公司</a></li>
-            </ul>
           </div>
           <input type="text" class="form-control" placeholder="邮箱">
         </div>
@@ -67,19 +55,23 @@
       <div class="form-group form-group-collapse">
         <div class="input-group width-100">
           <div class="input-group-btn width-30">
-            <button type="button" class="btn btn-default btn-icon col-xs-4"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default dropdown-toggle btn-right col-xs-8" data-toggle="dropdown" aria-expanded="false">
-              <div class="pull-left"><span>首页</span></div>
+            <button type="button" class="btn btn-none btn-icon col-xs-4"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none dropdown-toggle btn-right col-xs-8" data-toggle="modal" data-target="#myModal-3">
+              <div class="pull-left"><span>传真</span></div>
               <div class="pull-right"><span class="icon-to_right"></span></div>
             </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">首页</a></li>
-              <li><a href="#">公司</a></li>
-              <li><a href="#">个人</a></li>
-              <li><a href="#">博客</a></li>
-              <li><a href="#">微博</a></li>
-              <li><a href="#">LinkedIn</a></li>
-            </ul>
+          </div>
+          <input type="text" class="form-control" placeholder="传真">
+        </div>
+      </div>
+      <div class="form-group form-group-collapse">
+        <div class="input-group width-100">
+          <div class="input-group-btn width-30">
+            <button type="button" class="btn btn-none btn-icon col-xs-4"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none dropdown-toggle btn-right col-xs-8" data-toggle="modal" data-target="#myModal-4">
+              <div class="pull-left"><span>网址</span></div>
+              <div class="pull-right"><span class="icon-to_right"></span></div>
+            </button>
           </div>
           <input type="text" class="form-control" placeholder="URL">
         </div>
@@ -87,16 +79,11 @@
       <div class="form-group form-group-collapse">
         <div class="input-group width-100">
           <div class="input-group-btn width-30">
-            <button type="button" class="btn btn-default btn-icon col-xs-4"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default dropdown-toggle btn-right col-xs-8" data-toggle="dropdown" aria-expanded="false">
+            <button type="button" class="btn btn-none btn-icon col-xs-4"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none dropdown-toggle btn-right col-xs-8" data-toggle="modal" data-target="#myModal-5">
               <div class="pull-left"><span>地址</span></div>
               <div class="pull-right"><span class="icon-to_right"></span></div>
             </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">地址</a></li>
-              <li><a href="#">住宅</a></li>
-              <li><a href="#">公司</a></li>
-            </ul>
           </div>
           <input type="text" class="form-control" placeholder="地址">
         </div>
@@ -104,19 +91,11 @@
       <div class="form-group form-group-collapse form-end-2">
         <div class="input-group width-100">
           <div class="input-group-btn width-30">
-            <button type="button" class="btn btn-default btn-icon col-xs-4"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default dropdown-toggle btn-right col-xs-8" data-toggle="dropdown" aria-expanded="false">
+            <button type="button" class="btn btn-none btn-icon col-xs-4"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none dropdown-toggle btn-right col-xs-8" data-toggle="modal" data-target="#myModal-6">
               <div class="pull-left"><span>微信</span></div>
               <div class="pull-right"><span class="icon-to_right"></span></div>
             </button>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">微信</a></li>
-              <li><a href="#">QQ</a></li>
-              <li><a href="#">微博</a></li>
-              <li><a href="#">微信公众号</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-            </ul>
           </div>
           <input type="text" class="form-control" placeholder="社交账号">
         </div>
@@ -125,31 +104,184 @@
       <div class="form-group form-group-collapse form-end-3">
         <div class="input-group width-100">
           <div class="input-group-btn">
-            <button type="button" class="btn btn-default btn-icon width-10"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default btn-right width-90" aria-expanded="false">
+            <button type="button" class="btn btn-none btn-icon width-10"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none btn-right width-90" data-toggle="modal" data-target="#myModal-intro">
               <div class="pull-left"><span>个人简介</span></div>
-              <div class="pull-right"><span class="icon-to_right" style="margin-right: 8px;"></span></div>
+              <div class="pull-right"><span class="icon-to_right long-space-right"></span></div>
             </button>
           </div>
         </div>
       </div>
       <!-- form-end-3 -->
-      <div class="form-group form-group-collapse form-end-3">
+      <div class="form-group form-group-collapse form-end-4">
         <div class="input-group width-100">
           <div class="input-group-btn">
-            <button type="button" class="btn btn-default btn-icon width-10"><span class="icon-add_1"></span></button>
-            <button type="button" class="btn btn-default btn-right width-90" aria-expanded="false">
-              <div class="pull-left"><span>添加自定义栏目</span></div>
-              <div class="pull-right"><span class="icon-to_right" style="margin-right: 8px;"></span></div>
+            <button type="button" class="btn btn-none btn-icon width-10"><span class="icon-add_1"></span></button>
+            <button type="button" class="btn btn-none btn-right width-90" data-toggle="modal" data-target="#myModal-custom">
+              <div class="pull-left"><span>添加自定义文本</span></div>
+              <div class="pull-right"><span class="icon-to_right long-space right"></span></div>
             </button>
           </div>
         </div>
       </div>
-      <!-- form-end-3 again -->
-      <div class="form-group form-end-4 btn-submit">
-        <center><button type="submit" class="btn btn-default btn-submit width-100">完成编辑</button></center>
+      <!-- form-end-4 -->
+      <div class="form-group div-file-input form-end-4">
+        <label for="exampleInputFile">添加公司logo</label>
+        <input type="file" id="exampleInputFile">
       </div>
+      <!-- form-end-4 again -->
+
+      <div class="form-group btn-submit">
+        <center><button type="submit" class="btn btn-submit width-100">完成编辑</button></center>
+      </div>
+      <!-- form-end-5 -->
     </form>
+  </div>
+
+  <!-- Modal 集合-->
+  <!-- 电话 -->
+  <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">电话</a>
+        <a href="#" class="list-group-item">手机</a>
+        <a href="#" class="list-group-item">公司</a>
+        <a href="#" class="list-group-item">住宅</a>
+        <a href="#" class="list-group-item">个人</a>
+        <a href="#" class="list-group-item">工作</a>
+        <a href="#" class="list-group-item">主要</a>
+      </div>
+       <div class="modal-footer">
+        <center><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 邮箱 -->
+  <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">邮箱</a>
+        <a href="#" class="list-group-item">个人</a>
+        <a href="#" class="list-group-item">公司</a>
+      </div>
+       <div class="modal-footer">
+        <center><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 传真 -->
+  <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">传真</a>
+        <a href="#" class="list-group-item">传呼</a>
+      </div>
+       <div class="modal-footer">
+        <center><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- URL -->
+  <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">网址</a>
+        <a href="#" class="list-group-item">公司网址</a>
+        <a href="#" class="list-group-item">个人</a>
+        <a href="#" class="list-group-item">博客</a>
+        <a href="#" class="list-group-item">LinkedIn</a>
+      </div>
+       <div class="modal-footer">
+        <center><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 地址 -->
+  <div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">地址</a>
+        <a href="#" class="list-group-item">住宅</a>
+        <a href="#" class="list-group-item">公司</a>
+      </div>
+       <div class="modal-footer">
+        <center><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 社交账号 -->
+  <div class="modal fade" id="myModal-6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="list-group">
+        <a href="#" class="list-group-item active">微信</a>
+        <a href="#" class="list-group-item">QQ</a>
+        <a href="#" class="list-group-item">微信公众号</a>
+        <a href="#" class="list-group-item">腾讯微博</a>
+        <a href="#" class="list-group-item">新浪微博</a>
+        <a href="#" class="list-group-item">Facebook</a>
+        <a href="#" class="list-group-item">Twitter</a>
+      </div>
+       <div class="modal-footer">
+        <center><button type="button" class="btn btn-default" data-dismiss="modal">取消</button></center>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 个人简介 -->
+  <div class="modal fade" id="myModal-intro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">个人简介</h4>
+        </div>
+        <div class="modal-body modal-body-collapse">
+          <textarea class="form-control" rows="7" placeholder="输入内容"></textarea>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-save">保存</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 自定义文本 -->
+  <div class="modal fade" id="myModal-custom" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header modal-header-collapse">
+          <input type="text" class="form-control" placeholder="标题">
+        </div>
+        <div class="modal-body modal-body-collapse">
+          <textarea class="form-control" rows="7" placeholder="输入内容"></textarea>
+        </div>
+        <div class="modal-footer">
+          <center>
+            <button type="button" class="btn btn-save">保存</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+          </center>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

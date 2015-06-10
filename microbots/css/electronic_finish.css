@@ -1,0 +1,106 @@
+/*-------- electronic_finish.html --------*/
+
+/*-------- custom -------*/
+
+/* content-top */
+.content-top {
+	height: 85px;
+}
+.div-portrait {
+	max-width: 80px;
+	padding-right: 10px;
+}
+.div-basic-info {
+	padding-top: 15px;
+}
+.portrait {
+	width: 70px;
+}
+.name {
+	font-size: 17px;
+}
+.company {
+	font-size: 15px;
+	padding-right: 5px;
+}
+.position {
+	font-size: 15px;
+}
+.small-thumb {
+	width: 37px;
+}
+.small-thumb:first-child {
+	margin-left: 7px;
+}
+
+/* content-middle */
+.content-middle {
+	width: 100%;
+}
+.contact-item-basic {
+	min-height: 53px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding-top: 7px;
+}
+.contact-item-basic:last-child {
+	margin-bottom: 26px;
+}
+.item-tag {
+	font-size: 13px;
+	color: #107afd;
+	margin-bottom: 1px;
+}
+.item-value {
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+.icon-group {
+	padding-top: 7px;
+}
+.icon-button, .icon-button:active, .icon-button:focus, .icon-button:hover {
+	color: #107afd;
+	font-size: 26px;
+	text-decoration: none;
+
+}
+.icon-button:first-child {
+	margin-left: 15px;
+}
+
+/* content-bottom */
+.content-bottom {
+	height: 48px;
+	border: 1px solid #ddd;
+}
+.block-btn {
+	border-right: 1px solid #ddd;
+	height: 100%;
+	display: inline-block;
+}
+.block-btn a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #ccc;
+	padding: 10px;
+	font-size: 10px;
+}
+.block-btn-primary {
+	background-color: #107afd;
+	height: 100%;
+	display: inline-block;
+}
+.block-btn-primary a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+}
+
+.icon-button2 {
+	color: #107afd;
+	font-size: 24px;
+}
