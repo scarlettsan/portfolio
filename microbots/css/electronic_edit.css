@@ -9,7 +9,6 @@
 	box-shadow: none;
 	font-size: 15px;
 }
-
 .form-control:focus {
 	border: none;
 	box-shadow: none;
@@ -20,6 +19,10 @@
 	background-color: transparent !important;
 }
 
+/* modal */
+.modal-dialog {
+	margin: 40px 20px;
+}
 .modal-header {
 	padding: 12px;
 }
@@ -30,6 +33,7 @@
 	border-top: none;
 	padding: 10px;
 }
+/* list-group */
 .list-group {
 	margin-bottom: 0;
 }
