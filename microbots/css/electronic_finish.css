@@ -1,6 +1,9 @@
 /*-------- electronic_finish.html --------*/
 
 /*-------- custom -------*/
+body {
+	padding-bottom: 60px;
+}
 
 /* content-top */
 .content-top {
@@ -72,11 +75,17 @@
 .content-bottom {
 	height: 48px;
 	border: 1px solid #ddd;
+	width: 100%;
+	margin: 50px -15px 0px;
+	position: absolute;
+	bottom: 12px;
+	max-width: 768px;
 }
 .block-btn {
 	border-right: 1px solid #ddd;
 	height: 100%;
 	display: inline-block;
+	background-color: #fff;
 }
 .block-btn a {
 	display: block;
@@ -103,4 +112,9 @@
 .icon-button2 {
 	color: #107afd;
 	font-size: 24px;
+}
+
+/* modal */
+.modal-dialog {
+	margin: 40px 20px;
 }
