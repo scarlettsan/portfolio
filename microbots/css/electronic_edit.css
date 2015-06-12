@@ -22,7 +22,7 @@
 /* modal */
 @media (max-width: 768px) {
 	.modal-dialog {
-		margin: 40px 20px;
+		margin: 40px auto;
 	}
 }
 .modal-header {
