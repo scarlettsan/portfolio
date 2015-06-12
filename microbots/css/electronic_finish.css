@@ -35,6 +35,11 @@ body {
 .small-thumb:first-child {
 	margin-left: 7px;
 }
+.qr-thumb {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
 
 /* content-middle */
 .content-middle {
@@ -115,6 +120,14 @@ body {
 }
 
 /* modal */
-.modal-dialog {
-	margin: 40px 20px;
+.modal-header {
+	background-color: #f1f1f2;
+	border-bottom-color: #f1f1f2;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
+.modal-footer {
+	text-align: left;
+	color: #aaa;
+}
+/* scarlett */

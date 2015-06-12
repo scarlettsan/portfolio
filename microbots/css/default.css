@@ -60,6 +60,13 @@ textarea {
 	resize: none;
 }
 
+@media (max-width: 768px) {
+	.modal-dialog {
+		margin: 30px auto;
+		max-width: 80%;
+	}
+}
+
 /*-------- bootstrap custom -------*/
 
 

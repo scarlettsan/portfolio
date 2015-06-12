@@ -11,9 +11,9 @@
 }
 .form-control:focus {
 	border: none;
- 	-webkit-box-shadow: none;
+	-webkit-box-shadow: none;
     -moz-box-shadow: none;
-    box-shadow: none;
+    box-shadow: none;	
 	border-bottom: 1px solid #ddd;
 }
 
@@ -22,11 +22,6 @@
 }
 
 /* modal */
-@media (max-width: 768px) {
-	.modal-dialog {
-		margin: 40px 20px;
-	}
-}
 .modal-header {
 	padding: 12px;
 }
@@ -106,7 +101,7 @@
 }
 .btn-icon {
 	height: 44px;
-	padding: 4px 0px 0px 13px;
+	padding: 4px 0px 0px 12px;
 	border:none;
 	border-radius: 0px;
 	margin: 0px !important;

@@ -25,8 +25,10 @@
           </div>
         </div>
         <div class="width-30 pull-right">
-          <div class="small-thumb pull-right">
-            <img src="images/portrait.jpg" class="img-circle" />
+          <div class="small-thumb pull-right qr-thumb circle">
+            <a type="button" data-toggle="modal" data-target="#myModal-qr">
+              <img src="images/microbots.png" />
+            </a>
           </div>
           <div class="small-thumb pull-right">
             <img src="images/portrait.jpg" class="img-circle" />
@@ -106,6 +108,31 @@
       <a href="">制作纸质名片 &gt;</a>
     </center>
   </div>
+  </div>
+
+  <!-- modal -->  
+  <div class="modal fade" id="myModal-qr" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <div class="width-40 pull-left div-portrait">
+            <img src="images/portrait.jpg" class="img-circle portrait" />
+          </div>
+          <div class="width-60 pull-left div-basic-info">
+            <p class="name">杨宝玲</p>
+            <p><span class="company">东南大学</span><span class="title">学生</span></p>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="modal-body">
+          <img src="images/microbots.png" />
+        </div>
+        <div class="modal-footer">
+          <p>扫一扫获得电子名片。长按保存二维码，可打印于名片、工卡等任何地方。</p>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
