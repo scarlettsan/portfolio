@@ -1,8 +1,0 @@
-electronic_edit.html
-
-单击加号后，需要在上方生成一行同类型的输入框。文件底端同时还要生成匹配的模态框。
-怎么实现头像单击 ->上传图片并显示？
-下方logo同理，怎么实现带底图的单击上传，上传完显示
-
-electronic_finish.html
-各种overflow怎么解决
