@@ -1,0 +1,99 @@
+/* 20150222 Wangshu Sun */
+
+/***** global *****/
+body{
+	background: #f8f8f8;
+	font-family: Georgia, Georgia, "Times New Roman", Times, serif;
+}
+img {
+	max-width: 100%;
+}
+a {
+	transition: 0.2s;
+	-moz-transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+.line-half {
+	height: 0.5em;
+}
+.line-1 {
+	height: 1em;
+}
+.line-2 {
+	height: 2em;
+}
+.line-3 {
+	height: 3em;
+}
+.line-4 {
+	height: 4em;
+}
+.line-5 {
+	height: 5em;
+}
+.line-6 {
+	height: 6em;
+}
+.clear {clear:both; }
+
+@media (min-width:1200px){.container{max-width:1024px}}
+
+.container {background: #FFF; }
+
+#content > .container {
+	background-color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#foot > .container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/***** navbar *****/
+body .navbar {
+	opacity: 0.9;
+  	background: #FFF;
+}
+
+/***** jumbotron *****/
+.container .jumbotron {
+	max-width: 1024px;
+	height: 150px;
+	margin: 50px auto 0 auto;
+	background-color: #fff;
+	background-image: url("../images/banner.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 570px 120px;
+	border-radius: 0;
+	padding-top: 36px;
+}
+
+/***** page *****/
+#page > .container {
+	padding: 0;
+	-webkit-box-shadow: #aaa 0px 0px 3px;
+	-moz-box-shadow: #aaa 0px 0px 3px;
+	box-shadow: #aaa 0px 0px 3px;
+}
+
+#content {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/***** foot *****/
+#foot {
+	padding-bottom: 2em;
+	clear: both;
+}
+#foot hr {
+	margin: 0;
+	margin-bottom: 2em;
+	border-color: #e7e7e7;
+}
+#foot p {
+	font-family: arial;
+	font-size: 12px;
+}
