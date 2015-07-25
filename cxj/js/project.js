@@ -37,14 +37,23 @@ $(document).ready(function(){
 	if (currentClass === "a")
 	{
 		$("#tech").addClass("current-class");
+		$("#design-item").hide();
+		$("#idea-item").hide();
+		$("#hobby-item").hide();
 	}
 	else if (currentClass === "b")
 	{
 		$("#design").addClass("current-class");
+		$("#tech-item").hide();
+		$("#idea-item").hide();
+		$("#hobby-item").hide();
 	}
 	else if (currentClass === "c")
 	{
 		$("#idea").addClass("current-class");
+		$("#tech-item").hide();
+		$("#design-item").hide();
+		$("#hobby-item").hide();
 	}
 
 	$("#tech").hover(function() {
