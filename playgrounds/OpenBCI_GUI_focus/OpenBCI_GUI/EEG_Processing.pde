@@ -85,12 +85,14 @@ class EEG_Processing_User {
     beta_avg = beta_avg / beta_count;
     //current time = int(float(currentTableRowIndex)/openBCI.get_fs_Hz());
     
-    if(alpha_avg > 0.7 && alpha_avg < 10 && beta_avg < 0.4) {  // from excel
+    if(alpha_avg > 0.7 && alpha_avg < 10 && beta_avg < 0.7) {  // from excel
       isFocused = true;
+      robot.keyPress(KeyEvent.VK_SPACE);
       println("focused");
     }
     else {
       isFocused = false;
+      robot.keyRelease(KeyEvent.VK_SPACE);
       println("unfocused");
     }
 
