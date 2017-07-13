@@ -1,0 +1,331 @@
+/* version 20150121 Wangshu Sun */
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none; }
+.clear{clear:both;}/* clear float */
+img{max-width:100%; height: auto;}	/*edit 20141104 */
+/*end reset*/
+
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+
+.pull-left { 
+	float: left; 
+}
+.pull-right { 
+	float: right; 
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.half {width: 50%;}
+
+.wrap {
+	width: 77%;
+	margin:0 auto;
+	padding: 0;
+}
+
+#body {
+	max-width: 1088px;	
+	min-width: 1088px;	/*edit 20141028*/
+	margin: 0 auto;
+}
+
+#head {
+	background-color: #f5f5f5;
+	height: 90px;	/*94*/
+	z-index: 1;
+}
+#logo {
+	height: 85px;	/*89*/
+}
+
+#viewport {
+	min-height: 500px;
+	background: url(../images/back_c1088_b20_g2.jpg) no-repeat; /* edit 20141104 */
+	background-position: top center;
+	background-attachment: fixed;
+	background-size: 1088px auto;
+	/*background-size: 100%;*/	/* 不加会出错。神秘事件。 */
+}
+
+#menu {
+/*	float: left;*/	/* edit 20141104 */
+	position: absolute;
+	width: 114px;	
+	margin: 68px 0 0 0;	/*47*/	
+	z-index: 5;
+}
+
+#menu ul li {
+	height: 34px;	
+	font-size: 23px;	
+	font-family: "IrisUPC";
+}
+#menu ul ul li {
+	border-bottom: solid 1px rgba(150,150,150,0.60);	/* 190190190 */
+}
+
+#menu ul a{
+	display: block;
+	background-color: rgba(20,20,20,0.60);	
+	padding: 0 0 0 10px;	
+	color: #F5F5F5;
+}
+#menu ul a:hover {
+	background-color: rgba(0,0,0,0.80);
+}
+
+#menu ul ul a {
+	background-color: rgba(50,50,50,0.60);	/* (80,80,80,0.60) */	
+}
+#menu ul ul a:hover {
+	background-color: rgba(0,0,0,0.80);	/* rgb(190,190,190) (120,120,120,0.95) */
+	/* color: black; */
+}
+
+#aboutus {
+	border-left: solid 5px #031e6b;	
+}
+#menu ul #aboutus-bottom {
+	height: 2px;
+	background-color:rgba(140,140,140,0.60);	/* 150150150 0.60 */
+	border-left: solid 5px #031e6b;	
+}
+#academics {
+	border-left: solid 5px #680404;	
+}
+#menu ul #academics-bottom {
+	height: 2px;
+	background-color:rgba(140,140,140,0.60);	/* 150150150 0.60 */
+	border-left: solid 5px #680404;	
+}
+#admission {
+	border-left: solid 5px #075101;	
+}
+#menu ul #admission-bottom {
+	height: 2px;
+	background-color:rgba(140,140,140,0.60);	/* 150150150 0.60 */
+	border-left: solid 5px #075101;	
+}
+#research {
+	border-left: solid 5px #5b5902;	
+}
+#menu ul #research-bottom {
+	height: 2px;
+	background-color:rgba(140,140,140,0.60);	/* 150150150 0.60 */
+	border-left: solid 5px #5b5902;	
+}
+#faculty {
+	border-left: solid 5px #480e66;	
+}
+
+.list {
+	position: relative;
+	left: 109px;	
+	top: -34px;	
+	display: none;
+}
+ul#aboutusList {
+	width: 95px;	
+}
+ul#academicsList {
+	width: 200px;	
+}
+ul#admissionList {
+	width: 135px;	
+}
+ul#researchList {
+	width: 135px;	
+}
+ul#facultyList {
+	width: 160px;	
+}
+
+#viewport {
+	z-index: 1;	/* edit 20141104 */
+}
+
+#viewport .wrap {
+	min-height: 500px;
+	background: white;
+}
+#crumbs {
+/*	height: 24px;
+	padding: 10px 0px;
+*/	
+	height: 1em;
+	padding: 14px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 16px;
+	}
+#crumbs span {
+	padding: 7px 10px;
+	background-color: #990404;
+}
+#crumbs span img{
+	height: 15px;
+	margin-left: -10px;
+	margin-bottom: -4px;
+}
+#crumbs a {
+	color: white;
+}
+#crumbs a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	padding: 10px 25px 70px 25px;	/* edit 20141104 */
+	/* padding: 10px 17px 70px 17px; */
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	font-size: 14px;
+}
+#content a {
+	color: #808080;	/* edit 20141104 #707070*/
+	font-weight: bold;
+}
+#content a:hover {
+	text-decoration: underline;
+	color: black;	/* edit 20141104 */
+}
+#content p {
+	margin: 1em 0;
+	line-height: 150%;
+}
+#content h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 1em 0;
+}
+#content h2 {
+	font-weight: bold;
+	margin: 1em 0;
+}
+#content li h2 {
+	margin-top: 3em;
+}
+#content ol {
+	list-style: decimal;
+	margin: 1em 0 1em 1.5em;
+	line-height: 150%;
+}
+#content ul {
+	margin: 1em 0;
+	line-height: 150%;
+}
+
+.line-05 {
+	height: 0.5em;
+}
+.line-1 {
+	height: 1em;
+}
+.line-2 {
+	height: 2em;
+}
+.line-5 {
+	height: 5em;
+}
+.extendable {
+	width: 100%;
+	height: auto;
+	display: none; 
+}
+
+/*.right {
+	text-align: right;
+}*/
+
+#content .subject {
+	float: left;
+	width: 20%;
+	margin-right: 1.5%;
+	margin-bottom: -20px;
+}
+#content .subject img {
+	width: 100%;
+	display: block;
+	z-index: 0;
+}
+#content .subject span {
+	position: relative;
+	padding-top: 6px;
+	top: -30px;
+	height: 24px;
+	display: block;
+	background-color: rgba(209,104,26,0.72); /*(188,101,19,0.79)*/
+	text-align: center;
+	color: white;
+}
+#content .subject a{
+	color: white;
+	text-decoration: none;
+}
+#content .lecture {
+	width: 20%;
+	float: left;
+}
+#content .lecture img {
+	width: 100%;
+	display: block;
+	z-index: 0;
+}
+#content .lecture span {
+	position: relative;
+	padding-top: 6px;
+	top: -30px;
+	height: 24px;
+	display: block;
+	background-color: rgba(60,60,100,0.70);	/* 0.79 */
+	text-align: center;
+	color: white;
+}
+#content .lecture a{
+	color: white;
+	text-decoration: none;
+}
+
+#foot {
+	margin-top: 20px;
+	clear: both;
+	z-index: 1;
+}
+
+#links {
+	border-top: solid 3px #aaaaaa;	
+}
+.links-right {
+	margin-right: 16px;
+}
+#links img {
+	height: 29px;	
+}
+#nav-bottom {
+	margin-top: 26px;	
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	text-align: center;
+	font-size: 12px;
+}
+
+#copyright {
+	margin-top: 2px;	
+	font-family: Arial, Helvetica, sans-serif;
+	color: gray;
+	text-align: center;
+	font-size: 12px;
+}
